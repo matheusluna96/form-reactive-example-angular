@@ -1,0 +1,10 @@
+<form [formGroup]="formCadastro">
+  <input type="text" placeholder="Nome" formControlName="nome"><br>
+  <input type="text" placeholder="E-mail" formControlName="email"><br>
+  <input type="password" placeholder="Senha" formControlName="senha"><br>
+  <select name="" id="" formControlName="sexo">
+    <option value="MASCULINO">Masculino</option>
+    <option value="FEMININO">Feminino</option>
+  </select><br>
+  <button (click)="add()">Cadastrar</button>
+</form>
